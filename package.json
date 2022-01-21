@@ -1,0 +1,22 @@
+{
+  "name": "BabylonJS Template",
+  "version": "1.0.0",
+  "description": "A template set up for babylonJS with webpack support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8080"
+  },
+  "author": "Kyle Dick",
+  "license": "ISC",
+  "devDependencies": {
+    "@babylonjs/inspector": "^4.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
